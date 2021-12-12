@@ -1,0 +1,156 @@
+#interface {background-image:url(rpgbackground2.png);
+	background-size: cover ;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 900px;
+	height: 600px; 
+}
+
+/*boîtes pour séparer la page en trois */
+#haut {
+	display : flex; justify-content : center;
+}
+
+#dialogue {
+		display : flex; justify-content : center; 
+		padding : 10px; border : solid black;
+		border-radius: 5px; 
+		background: rgb(10, 10, 150,.70); 
+		color : white;
+		display: inline-block;
+	}
+
+	
+		
+#milieu {
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	
+}
+
+#heros {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: 400px;
+}
+
+#king {
+	display : flex;
+	justify-content: flex-end;
+	height: 80px;
+	width: 80px;
+}
+
+
+#boy {
+	display: flex;
+	justify-content: center;
+	height: 70px;
+	width: 70px;
+}
+
+#budda {
+	display : flex;
+	justify-content: flex-end;
+	height: 70px;
+	width: 70px;
+}
+
+#snake {
+	display : flex;
+	justify-content: flex-end;
+	height: 60px;
+	width: 60px;
+}
+
+#villains {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: 450px;
+}
+
+
+
+#skeletonlp {
+	position: relative;
+	padding : 10px;
+	border-radius: 30px; 
+	font-size: 20px;
+	background: rgb(10, 10, 150,.70); 
+	color : white;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 3px 3px black;
+	visibility=hidden;
+}
+
+#spiderlp {
+	position: relative;
+	padding : 10px;
+	border-radius: 30px; 
+	font-size: 20px;
+	background: rgb(10, 10, 150,.70); 
+	color : white;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 3px 3px black;
+}
+
+
+#warlock {
+	display : flex;
+	justify-content: flex-end;
+	height: 120px;
+	width: 110px;
+}
+
+
+#skeleton {
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	width: 100px;
+}
+
+
+#spider {
+	display : flex;
+	justify-content: flex-end;
+	height: 80px;
+	width: 90px;
+}
+
+
+#bas {
+	display : flex; justify-content : center; 
+	border : invisible ;
+	height: 120px;
+}
+
+#options {
+	display : flex; justify-content : center; 
+	padding : 10px; border : solid black; 
+	border-radius: 5px; 
+	background: rgb(10, 10, 150,.70); 
+	color : white;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+
